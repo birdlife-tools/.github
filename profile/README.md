@@ -31,6 +31,14 @@ Guided by *Sympatheia* — awareness of the interconnectedness of all parts of n
 | [edna-barcoding](https://github.com/birdlife-tools/edna-barcoding) | eDNA sequence analysis for species detection | 🚧 Planning |
 | [population-viability](https://github.com/birdlife-tools/population-viability) | Monte Carlo population survival simulator | 🚧 Planning |
 
+## Community
+
+Join our Matrix space to discuss, ask questions, and collaborate:
+
+[![Matrix](https://img.shields.io/badge/Matrix-Join%20Space-black?logo=matrix)](https://matrix.to/#/#birdlife-tools:matrix.org)
+
+Each tool has its own channel for focused discussion.
+
 ## Contributing
 
 All tools are MIT licensed. Contributions welcome — see individual repos for setup guides.
