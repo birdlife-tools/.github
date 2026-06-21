@@ -49,3 +49,7 @@ Tools support international use:
 - English as default language
 - Country-specific data sources via configuration
 - Region-specific setup guides in `docs/localization/`
+
+---
+
+*This is an independent open-source community project and is not affiliated with or endorsed by BirdLife International.*
