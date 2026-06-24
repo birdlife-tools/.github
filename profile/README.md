@@ -12,9 +12,9 @@ Guided by *Sympatheia* — awareness of the interconnectedness of all parts of n
 
 All BirdLife tools share a common data language — ensuring interoperability across the ecosystem.
 
-| Repository | Description | Status |
-|------------|-------------|--------|
-| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Language-agnostic data contract schemas (Apache Avro) | 🚧 Planning |
+| Repository | Description | Version |
+|------------|-------------|---------|
+| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Language-agnostic data contract schemas (Apache Avro) | [![v0.1.0](https://img.shields.io/badge/version-v0.1.0-blue)](https://github.com/birdlife-tools/birdlife-schema/releases/tag/v0.1.0) |
 
 **What it provides:**
 - **Canonical shapes** for Taxon, Observation, Location, Observer, Protocol, Evidence
