@@ -8,18 +8,20 @@ Free tools that solve real operational problems for frontline conservation organ
 
 Guided by *Sympatheia* — awareness of the interconnectedness of all parts of nature.
 
-## Data Contract
+## Foundation
 
-All BirdLife tools share a common data language — ensuring interoperability across the ecosystem.
+All BirdLife tools share a common data language and ID system — ensuring interoperability across the ecosystem.
 
-| Repository | Description | Version |
-|------------|-------------|---------|
-| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Language-agnostic data contract schemas (Apache Avro) + CLI | [![v0.2.0](https://img.shields.io/badge/version-v0.2.0-blue)](https://github.com/birdlife-tools/birdlife-schema/releases/tag/v0.2.0) |
+| Component | Description | Status |
+|-----------|-------------|--------|
+| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Data contract schemas (Apache Avro) + validation CLI | [![v0.2.0](https://img.shields.io/badge/released-v0.2.0-green)](https://github.com/birdlife-tools/birdlife-schema/releases/tag/v0.2.0) |
+| [Resolution API](https://birdlife.tech/docs) | Deterministic ID generation for taxa and locations | [![live](https://img.shields.io/badge/status-live-brightgreen)](https://birdlife.tech/docs) |
 
 **What it provides:**
 - **Canonical shapes** for Taxon, Observation, Location, Observer, Protocol, Evidence
 - **Darwin Core alignment** — compatible with GBIF and global biodiversity standards
-- **Resolution API** — consistent ID generation across tools (`birdlife.tech/api/v1/`)
+- **Deterministic IDs** — same scientific name → same UUID, everywhere, always
+- **Location deduplication** — coordinates within ~11m resolve to the same ID
 - **Schema validation** — tools declare and verify compatibility
 
 [![Matrix](https://img.shields.io/badge/Matrix-%23birdlife--schema-black?logo=matrix)](https://matrix.to/#/#birdlife-schema:matrix.org)
