@@ -8,6 +8,22 @@ Free tools that solve real operational problems for frontline conservation organ
 
 Guided by *Sympatheia* — awareness of the interconnectedness of all parts of nature.
 
+## Data Contract
+
+All BirdLife tools share a common data language — ensuring interoperability across the ecosystem.
+
+| Repository | Description | Status |
+|------------|-------------|--------|
+| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Language-agnostic data contract schemas (Apache Avro) | 🚧 Planning |
+
+**What it provides:**
+- **Canonical shapes** for Taxon, Observation, Location, Observer, Protocol, Evidence
+- **Darwin Core alignment** — compatible with GBIF and global biodiversity standards
+- **Resolution API** — consistent ID generation across tools (`birdlife.tech/api/v1/`)
+- **Schema validation** — tools declare and verify compatibility
+
+[![Matrix](https://img.shields.io/badge/Matrix-%23birdlife--schema-black?logo=matrix)](https://matrix.to/#/#birdlife-schema:matrix.org)
+
 ## Tools
 
 ### Data & Citizen Science
