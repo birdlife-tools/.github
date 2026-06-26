@@ -14,7 +14,7 @@ All BirdLife tools share a common data language and ID system — ensuring inter
 
 | Component | Description | Status |
 |-----------|-------------|--------|
-| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Data contract schemas (Apache Avro) + validation CLI | [![v0.3.4](https://img.shields.io/badge/released-v0.3.4-green)](https://github.com/birdlife-tools/birdlife-schema/releases/tag/v0.3.4) |
+| [birdlife-schema](https://github.com/birdlife-tools/birdlife-schema) | Data contract schemas (Apache Avro) + validation CLI | [![v0.3.5](https://img.shields.io/badge/released-v0.3.5-green)](https://github.com/birdlife-tools/birdlife-schema/releases/tag/v0.3.5) |
 | [Resolution API](https://birdlife.tech/docs) | Deterministic ID generation for taxa and locations | [![live](https://img.shields.io/badge/status-live-brightgreen)](https://birdlife.tech/docs) |
 
 **What it provides:**
