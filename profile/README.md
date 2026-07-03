@@ -31,7 +31,7 @@ All BirdLife tools share a common data language and ID system — ensuring inter
 ### Data & Citizen Science
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | 🚧 Planning |
+| [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | [![v0.0.0](https://img.shields.io/badge/ebird--iucn--synthesizer-v0.0.0-yellow)](https://github.com/birdlife-tools/ebird-iucn-synthesizer/releases/tag/v0.0.0) |
 | [bird-collision-reporter](https://github.com/birdlife-tools/bird-collision-reporter) | PWA for reporting bird-glass collisions with GPS | 🚧 Planning |
 | [volunteer-hotspot-finder](https://github.com/birdlife-tools/volunteer-hotspot-finder) | Find data gaps and propose survey missions | 🚧 Planning |
 
