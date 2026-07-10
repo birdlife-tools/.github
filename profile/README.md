@@ -32,18 +32,27 @@ All BirdLife APIs follow a consistent response envelope:
 
 ```json
 {
-  "data": [...],     // Schema-aligned entities (Taxon[], Location[], etc.)
+  "data": [
+    {
+      "taxonID": "fc461075-...",
+      "scientificName": "Streptopelia turtur",
+      "iucnStatus": "VU",
+      "extensions": {
+        "iucn.assessmentDate": "2019-08-14",
+        "ebird.speciesCode": "eutdov"
+      }
+    }
+  ],
   "meta": {
     "resultType": "species-search",
-    "queryTimestamp": "2026-07-10T14:00:00Z",
-    ...
+    "queryTimestamp": "2026-07-10T14:00:00Z"
   }
 }
 ```
 
-- **`data[]`** — The results: entities that validate against birdlife-schema
-- **`meta`** — Query context: timestamps, filters applied, not entity data
-- **`extensions`** — Tool-specific enrichments on entities (namespaced, e.g., `iucn.populationTrend`)
+- **`data[]`** — Schema-aligned entities (Taxon, Location, etc.)
+- **`data[].extensions`** — Tool-specific enrichments, namespaced (e.g., `iucn.*`, `ebird.*`)
+- **`meta`** — Query context only: timestamps, filters, not entity data
 
 This follows the Darwin Core / GBIF pattern where the envelope is a transport concern, not part of the data model.
 
