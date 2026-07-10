@@ -26,12 +26,33 @@ All BirdLife tools share a common data language and ID system — ensuring inter
 
 [![Matrix](https://img.shields.io/badge/Matrix-%23birdlife--schema-black?logo=matrix)](https://matrix.to/#/#birdlife-schema:matrix.org)
 
+### API Response Convention
+
+All BirdLife APIs follow a consistent response envelope:
+
+```json
+{
+  "data": [...],     // Schema-aligned entities (Taxon[], Location[], etc.)
+  "meta": {
+    "resultType": "species-search",
+    "queryTimestamp": "2026-07-10T14:00:00Z",
+    ...
+  }
+}
+```
+
+- **`data[]`** — The results: entities that validate against birdlife-schema
+- **`meta`** — Query context: timestamps, filters applied, not entity data
+- **`extensions`** — Tool-specific enrichments on entities (namespaced, e.g., `iucn.populationTrend`)
+
+This follows the Darwin Core / GBIF pattern where the envelope is a transport concern, not part of the data model.
+
 ## Tools
 
 ### Data & Citizen Science
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | [![v0.0.0](https://img.shields.io/badge/ebird--iucn--synthesizer-v0.0.0-yellow)](https://github.com/birdlife-tools/ebird-iucn-synthesizer/releases/tag/v0.0.0) |
+| [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | [![v0.2.0](https://img.shields.io/badge/ebird--iucn--synthesizer-v0.2.0-green)](https://github.com/birdlife-tools/ebird-iucn-synthesizer/releases/tag/v0.2.0) |
 | [bird-collision-reporter](https://github.com/birdlife-tools/bird-collision-reporter) | PWA for reporting bird-glass collisions with GPS | 🚧 Planning |
 | [volunteer-hotspot-finder](https://github.com/birdlife-tools/volunteer-hotspot-finder) | Find data gaps and propose survey missions | 🚧 Planning |
 
