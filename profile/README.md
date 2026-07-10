@@ -26,6 +26,27 @@ All BirdLife tools share a common data language and ID system — ensuring inter
 
 [![Matrix](https://img.shields.io/badge/Matrix-%23birdlife--schema-black?logo=matrix)](https://matrix.to/#/#birdlife-schema:matrix.org)
 
+### API Response Convention
+
+All BirdLife APIs follow a consistent response envelope:
+
+```json
+{
+  "data": [...],     // Schema-aligned entities (Taxon[], Location[], etc.)
+  "meta": {
+    "resultType": "species-search",
+    "queryTimestamp": "2026-07-10T14:00:00Z",
+    ...
+  }
+}
+```
+
+- **`data[]`** — The results: entities that validate against birdlife-schema
+- **`meta`** — Query context: timestamps, filters applied, not entity data
+- **`extensions`** — Tool-specific enrichments on entities (namespaced, e.g., `iucn.populationTrend`)
+
+This follows the Darwin Core / GBIF pattern where the envelope is a transport concern, not part of the data model.
+
 ## Tools
 
 ### Data & Citizen Science
