@@ -61,7 +61,7 @@ This follows the Darwin Core / GBIF pattern where the envelope is a transport co
 ### Data & Citizen Science
 | Repository | Description | Status |
 |------------|-------------|--------|
-| [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | [![v0.2.0](https://img.shields.io/badge/ebird--iucn--synthesizer-v0.2.0-green)](https://github.com/birdlife-tools/ebird-iucn-synthesizer/releases/tag/v0.2.0) |
+| [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | [![v0.2.1](https://img.shields.io/badge/ebird--iucn--synthesizer-v0.2.1-green)](https://github.com/birdlife-tools/ebird-iucn-synthesizer/releases/tag/v0.2.1) |
 | [bird-collision-reporter](https://github.com/birdlife-tools/bird-collision-reporter) | PWA for reporting bird-glass collisions with GPS | 🚧 Planning |
 | [volunteer-hotspot-finder](https://github.com/birdlife-tools/volunteer-hotspot-finder) | Find data gaps and propose survey missions | 🚧 Planning |
 
