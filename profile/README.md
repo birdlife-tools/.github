@@ -62,7 +62,7 @@ This follows the Darwin Core / GBIF pattern where the envelope is a transport co
 | Repository | Description | Status |
 |------------|-------------|--------|
 | [ebird-iucn-synthesizer](https://github.com/birdlife-tools/ebird-iucn-synthesizer) | Synthesize eBird sightings with IUCN Red List threat data | [![v0.2.1](https://img.shields.io/badge/ebird--iucn--synthesizer-v0.2.1-green)](https://github.com/birdlife-tools/ebird-iucn-synthesizer/releases/tag/v0.2.1) |
-| [observation-note-tagger](https://github.com/birdlife-tools/observation-note-tagger) | Extract structured data from observation notes using LLMs | 🔧 In Progress |
+| [observation-note-tagger](https://github.com/birdlife-tools/observation-note-tagger) | Extract structured data from observation notes using LLMs | [![v0.1.0](https://img.shields.io/badge/observation--note--tagger-v0.1.0-green)](https://github.com/birdlife-tools/observation-note-tagger/releases/tag/v0.1.0) |
 | [bird-collision-reporter](https://github.com/birdlife-tools/bird-collision-reporter) | PWA for reporting bird-glass collisions with GPS | 🚧 Planning |
 | [volunteer-hotspot-finder](https://github.com/birdlife-tools/volunteer-hotspot-finder) | Find data gaps and propose survey missions | [![v0.1.1](https://img.shields.io/badge/volunteer--hotspot--finder-v0.1.1-green)](https://github.com/birdlife-tools/volunteer-hotspot-finder/releases/tag/v0.1.1) |
 
